@@ -1,5 +1,6 @@
 @ECHO OFF
 color 40
+echo this was made by yah boi luxs
 :choice
 set /P c=do you want to run this?[Y/N]?
 if /I "%c%" EQU "Y" goto :k1
